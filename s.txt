@@ -1,0 +1,21 @@
+This file is meant to store Git commands
+mkdir NAME %make directory
+cd NAME %change into directory
+pwd %display the path 
+
+git init % turn the files into repository
+Git add .txt
+Git commit -m "Comments"
+
+git status
+git log
+git reset --hard HEAD^ %one ^means the last oen  if 100 rewrite as HEAD~100
+git reset --hard version_number
+git reflog all your logs
+git diff HEAD -- .txt % the differences in between working place and repository
+git restore .txt to cancel changes in the working place 
+git restore --staged .txt % to cancel changes after you add .txt
+git reset HEAD .txt       % to cancel changes after you add .txt
+
+rm .txt % remove files from repository
+git rm .txt 
